@@ -14,4 +14,6 @@ function checkTemp()
     {
         Ans = 0
     }
+    
+    return Ans;
 }
