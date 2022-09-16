@@ -1,7 +1,5 @@
-function checkTemp()
+function checkTemp(temp)
 {
-    var temp;
-
     if (temp < 21)
     {
         Ans = -1
