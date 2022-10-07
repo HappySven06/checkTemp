@@ -6,9 +6,9 @@ function orderSummary(tellimus)
         console.log(row.name)
         console.log(row.amount)
         vatAmount = row.price * row.vat;
-        vatPrice = row.price + vatAmount;
+        vatPrice = row.price + vatAmount * row.amount;
         console.log(vatPrice)
-        Total += vatPrice * row.amount;
+        Total += vatPrice;
     }
 
     console.log(Total)
