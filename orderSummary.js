@@ -1,4 +1,4 @@
-function orderSummary(Order)
+function orderSummary(tellimus)
 {
     Total = 0;
 
