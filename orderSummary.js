@@ -5,9 +5,11 @@ function orderSummary(tellimus)
     for (var i = 0, row; row = tellimus.rows[i]; i++) {
         console.log(row.name)
         console.log(row.amount)
-        vatAmount = row.price * row.vat * row.amount;
+        vatAmount = row.price * row.vat;
         vatPrice = row.price + vatAmount;
+        console.log(row.price)
         console.log(vatPrice)
+        console.log(vatPrice * row.amount)
         Total += vatPrice;
     }
 
