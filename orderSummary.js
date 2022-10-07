@@ -8,7 +8,7 @@ function orderSummary(tellimus)
         vatAmount = row.price * row.vat;
         vatPrice = row.price + vatAmount;
         console.log(vatPrice)
-        Total += row.price * row.amount;
+        Total += vatPrice * row.amount;
     }
 
     console.log(Total)
