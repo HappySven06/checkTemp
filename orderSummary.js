@@ -1,4 +1,4 @@
-function order(Order)
+function orderSummary(Order)
 {
     var Order;
     Total = 0;
