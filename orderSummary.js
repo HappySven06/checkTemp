@@ -9,7 +9,7 @@ function order(Order)
         vatAmount = row.price * row.vat;
         vatPrice = row.price + vatAmount;
         console.log("Price: " + vatPrice)
-        Total += row.price;
+        Total += row.price * row.amount;
     }
 
     console.log(Total)
